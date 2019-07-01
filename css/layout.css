@@ -38,7 +38,7 @@ header {
     padding: 16px 0px 15px 0px;
 }
 .container {
-    width: 940px;
+    width: 58.75em;
     margin: 0 auto;
 }
 .bottom-header-wrapper {
@@ -129,6 +129,13 @@ header {
     padding: 0 4px;
 
 }
+
+.mobile-menu {
+    display: none;
+}
+
+
+
 .user-notification ul li {
     font-size: 14px;
     margin: 0 10px;
