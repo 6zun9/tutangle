@@ -141,7 +141,7 @@ header {
     margin: 0 10px;
   }
   .all-entries-wrapper {
-    background: whitesmoke;
+    /* background: whitesmoke; */
 }
  .user-notification ul li:first-child {
       background:url('../images/topic-box-invite-inactive.png') no-repeat 0;
@@ -173,18 +173,22 @@ header {
       background: url('../images/body-background.png');
   }
 
-  .left-sidebar-wrapper {
-      width: 195px;
+  .main-container .container .main-container-left .left-sidebar-wrapper {
+      width: 25.4901960784%;
   }
 
   .entries-wrapper {
-      width: 518px;
+      width: 67.7124183007%;
       padding: 0 26px;
   }
 
-  .right-sidebar-wrapper {
-      width: 175px;
+  .main-container .container > .right {
+  width: 18.6170212766%;
   }
+
+  .main-container .container >.left {
+    width: 81.3829787234%;
+}
 
   .sidebar-title {
       background: #72bfd7;
@@ -216,6 +220,11 @@ header {
 
 .entries-tab-wrapper {
     background: url('../images/tab-wrapper.png') no-repeat;
+    background-size: 100% 100%;
+}
+
+.tab-wrapper-border-line img {
+    width: 100%;
 }
 .entries-title {
     font-size: 24px;

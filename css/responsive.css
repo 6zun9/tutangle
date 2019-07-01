@@ -34,7 +34,6 @@ html,body{
     top: -40px;
 }
 
-
 .logo-wrapper{
   width:50%;
 }
@@ -129,6 +128,8 @@ html,body{
 /* tablet phone divices */
 @media screen and (min-width:481px) and (max-width:768px) {
 
+
+
 .container{
   width:auto;
   margin:0 10px;
@@ -148,6 +149,12 @@ html,body{
   width:100%;
 }
 
+.entries-wrapper{
+  width: 95%;
+}
+.all-entries-wrapper{
+  width:50%;
+}
 
 footer {
     position: absolute;
